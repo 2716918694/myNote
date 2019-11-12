@@ -1,0 +1,21 @@
+pwd  查看当前位置
+ls 查看当前目录有哪些文件
+-l   列表 显示
+-a  显示隐藏文件
+
+cd:切换目录
+	cd / 去根目录
+	cd ../ 前往上级
+	cd ~ 前往当前用户的主目录
+	cd - 进入上次所在的目录
+
+tar:压缩文件
+tar -zcvf filename.tar.gz file1 file2
+tar -jcvf filename.tar.gz file1 file2
+
+VIM 文本编辑
+i 当前光标前面插入 I 行首
+a 当前光标后插入 A 行尾
+o 下一行 O 上一行
+dd 删除当前行
+u 撤销上个操作 ctrl z
